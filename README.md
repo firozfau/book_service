@@ -36,6 +36,13 @@ cd path/to/your/project
  'step-2:' docker pull python:3.9  
  'step-3:' sudo docker compose up --build
 ```
+### After encountering a database running issue, you need to stop and restart the project up to a maximum of three times. This is necessary because, on your local machine, PostgreSQL requires the creation of a dependency file, which is generated after creating the container.:
+```bash
+  'step-1': press: control+c
+  'step-2' : sudo docker compose up --build
+  
+```
+
 ### Fast-API access URL:
 ```bash
  'URL:' http://127.0.0.1:8000/docs
