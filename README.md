@@ -6,7 +6,7 @@ Book service
 
 These instructions will get you a copy of the project up and running on your local machine.
 ### Prerequisites
-[Obtain detailed project requirements](https://github.com/firozfau/book_service/blob/main/test.pdf)
+Obtain detailed project requirements: [test.pdf](https://github.com/firozfau/book_service/blob/main/test.pdf)
 
 ### Prerequisites
 
