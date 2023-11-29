@@ -1,7 +1,0 @@
-
-fastapi[all]
-databases[postgresql]
-sqlalchemy
-psycopg2
-aiopg
-uvicorn[standard]
