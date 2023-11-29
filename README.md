@@ -30,13 +30,20 @@ git clone https://github.com/your-username/your-project.git
 ```bash
 cd path/to/your/project
 ```
-### To run the Docker project, follow the steps below:
+### [in general way:] To run the Docker project, follow the steps below:
+```bash
+ 'step-1:' docker compose up --build
+ 'step-2:' open browser check :http://127.0.0.1:8000/docs
+  [If this URL is not working then ]  
+ 'step-3': press: control+c
+ 'step-4' : sudo docker compose up --build
+```
+### [Need sudo permission:]  To run the Docker project, follow the steps below:
 ```bash
  'step-1:' docker compose up --build
  'step-2:' docker pull python:3.9  
  'step-3:' docker scout quickview python:3.9
  'step-4:' sudo docker compose up --build
- 
  'step-5:' open browser check :http://127.0.0.1:8000/docs
   [If this URL is not working then ]  
  'step-6': press: control+c
