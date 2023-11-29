@@ -1,8 +1,8 @@
 -- Drop the database if it exists
-DROP DATABASE IF EXISTS book_service;
+-- DROP DATABASE IF EXISTS book_service;
 
 -- Create the database
-CREATE DATABASE book_service;
+-- CREATE DATABASE book_service;
 
 DROP TABLE IF EXISTS authors;
 
